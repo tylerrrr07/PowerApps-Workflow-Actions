@@ -2,13 +2,9 @@ using Microsoft.Xrm.Sdk;
 using Microsoft.Xrm.Sdk.Workflow;
 using System;
 using System.Activities;
-using System.Collections.Generic;
 using System.Globalization;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace PowerApps_Workflow_Actions
+namespace Intellisenseless.PowerApps.WorkflowActions
 {
     public abstract partial class BaseWorkflow : CodeActivity
     {
